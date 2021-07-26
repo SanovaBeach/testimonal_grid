@@ -35,8 +35,8 @@ body {
 }
 
 .main {
-  max-width: 144rem;
   width: 100%;
+  max-width: 110rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[12];
@@ -48,8 +48,8 @@ body {
 
 .daniel_card {
   -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
-  grid-column: 1/6;
+  -ms-grid-column-span: 6;
+  grid-column: 1/7;
   padding: 3rem;
   background-color: #7541c8;
   border-radius: 1rem;
@@ -77,9 +77,9 @@ body {
 }
 
 .jonathan_card {
-  -ms-grid-column: 6;
+  -ms-grid-column: 7;
   -ms-grid-column-span: 3;
-  grid-column: 6/ 9;
+  grid-column: 7/ 10;
   background-color: #48556a;
   padding: 3rem;
   border-radius: 1rem;
@@ -144,8 +144,8 @@ body {
   -ms-grid-row-span: 1;
   grid-row: 2 / 3;
   -ms-grid-column: 4;
-  -ms-grid-column-span: 5;
-  grid-column: 4 / 9;
+  -ms-grid-column-span: 6;
+  grid-column: 4 / 10;
   background-color: #19212e;
   padding: 3rem;
   border-radius: 1rem;
@@ -173,9 +173,9 @@ body {
 }
 
 .kira_card {
-  -ms-grid-column: 9;
-  -ms-grid-column-span: 4;
-  grid-column: 9 / 13;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 3;
+  grid-column: 10 / 13;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1 / 3;
