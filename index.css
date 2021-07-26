@@ -13,6 +13,13 @@ html {
 
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #cfcfcf;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  font-size: 1.5rem;
+}
+
+.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,20 +29,21 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #cfcfcf;
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-  font-size: 1.3rem;
+  max-width: 144rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .main {
-  max-width: 1440px;
+  max-width: 144rem;
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
   grid-gap: 3rem;
-  padding: 15rem 0;
+  padding: 10rem 0;
+  margin: 0 auto;
 }
 
 .daniel_card {
@@ -166,8 +174,8 @@ body {
 
 .kira_card {
   -ms-grid-column: 9;
-  -ms-grid-column-span: 3;
-  grid-column: 9 / 12;
+  -ms-grid-column-span: 4;
+  grid-column: 9 / 13;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1 / 3;
