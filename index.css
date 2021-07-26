@@ -1,0 +1,221 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #cfcfcf;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  font-size: 1.3rem;
+}
+
+.main {
+  max-width: 1440px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  grid-gap: 3rem;
+  padding: 15rem 0;
+}
+
+.daniel_card {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1/6;
+  padding: 3rem;
+  background-color: #7541c8;
+  border-radius: 1rem;
+}
+
+.daniel_name {
+  color: white;
+}
+
+.daniel_status {
+  color: white;
+  opacity: 50%;
+}
+
+.daniel_statement {
+  font-size: 1.7rem;
+  color: white;
+  margin-top: 2.5rem;
+}
+
+.daniel_exp {
+  margin-top: 2.5rem;
+  color: white;
+  opacity: 70%;
+}
+
+.jonathan_card {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6/ 9;
+  background-color: #48556a;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.jonathan_name {
+  color: white;
+}
+
+.jonathan_status {
+  color: white;
+  opacity: 50%;
+}
+
+.jonathan_statement {
+  font-size: 1.7rem;
+  color: white;
+  margin-top: 2.5rem;
+}
+
+.jonathan_exp {
+  margin-top: 2.5rem;
+  color: white;
+  opacity: 70%;
+}
+
+.jeanette_card {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/ 4;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.jeanette_name {
+  color: #19212e;
+}
+
+.jeanette_status {
+  color: #19212e;
+  opacity: 50%;
+}
+
+.jeanette_statement {
+  font-size: 1.7rem;
+  color: #19212e;
+  margin-top: 2.5rem;
+}
+
+.jeanette_exp {
+  margin-top: 2.5rem;
+  color: #19212e;
+  opacity: 70%;
+}
+
+.patrick_card {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 5;
+  grid-column: 4 / 9;
+  background-color: #19212e;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.patrick_name {
+  color: white;
+}
+
+.patrick_status {
+  color: white;
+  opacity: 50%;
+}
+
+.patrick_statement {
+  font-size: 1.7rem;
+  color: white;
+  margin-top: 2.5rem;
+}
+
+.patrick_exp {
+  margin-top: 2.5rem;
+  color: white;
+  opacity: 70%;
+}
+
+.kira_card {
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 3;
+  grid-column: 9 / 12;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.kira_name {
+  color: #19212e;
+}
+
+.kira_status {
+  color: #19212e;
+  opacity: 50%;
+}
+
+.kira_statement {
+  font-size: 1.7rem;
+  color: #19212e;
+  margin-top: 2.5rem;
+}
+
+.kira_exp {
+  margin-top: 2.5rem;
+  color: #19212e;
+  opacity: 70%;
+}
+
+.global_img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.global_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.global_nameContainer {
+  margin-left: 2rem;
+}
+/*# sourceMappingURL=index.css.map */
